@@ -1,0 +1,27 @@
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class SorteandoValor {
+
+	public static void main(String[] args) {
+		 //exemplo usando sorteio de número aleatórios com Random
+		int valor;
+		Random rnd = new Random();
+		for (int i = 0; i < 10; i++) {
+			valor = rnd.nextInt();
+			System.out.println("Sorteador: "+ valor);
+			}
+		
+		
+		
+	}
+
+}
+
+
+
+																															/*
+																															 * 33
+																															 */
+
